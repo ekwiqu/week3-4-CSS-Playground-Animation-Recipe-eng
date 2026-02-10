@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kings&family=UnifrakturMaguntia&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(215, 198, 223);
+}
+
+
+.heading {
+    text-align: center; 
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.first-heading {
+    font-size: 2rem;
+    font-family: "UnifrakturMaguntia", cursive;
+    color: rgb(0, 0, 0);    
+}
+
+.second-heading {
+    font-size: 1.5rem;
+    font-family: "UnifrakturMaguntia", cursive;
+    color: rgb(174, 33, 33);  
+}
+
+.main{
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 2rem auto;
+}
+
+.main > div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#red {
+    border: 1px solid red;
+}
+
+#blue {
+    border: 1px solid blue;
+}
+
+#green {
+    border: 1px solid green;
+}
+
+#top-image{
+    width: 600px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.body{
+    border: 1px black groove;
+    margin-bottom: 10px;
+}
+
+.list{
+    margin-left: 20px;
+}
+
+.title{
+        text-decoration: underline;
+
+}
+
+.footer{
+    text-align: center;
+}
