@@ -23,7 +23,22 @@ body {
     padding-right: 20px;
     border: 1px solid black;
     background-color: white;
+    position: relative;
+    top:0 px;
+    animation: red 6s ease-in-out forwards;
+    animation-iteration-count: infinite;
 }
+
+@keyframes red {
+    0%{top: -100px;}
+
+    30%{top: 0px;}
+
+    90%{top: 0px;}
+
+    100%{top: -1000px;}
+}
+
 
 .first-heading {
     font-size: 2rem;
@@ -69,6 +84,20 @@ body {
     display: block;
     margin: auto;
     margin-bottom: 20px;
+    position: relative;
+    left: 0px;
+    animation: TopImage 6s ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes TopImage {
+    0%{left: -2000px;}
+
+    30%{left: 0px;}
+
+    90%{left: 0px;}
+
+    100%{left: -2000px;}
 }
 
 .body{
@@ -87,4 +116,12 @@ body {
 
 .footer{
     text-align: center;
+    animation: Footer 6s ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Footer {
+    30%{transform: rotateY(0deg) rotateX(0deg);}
+    60%{transform: rotateY(180deg) rotateX(180deg);}
+    90%{transform: rotateY(180deg)  rotateX(180deg);}
 }
